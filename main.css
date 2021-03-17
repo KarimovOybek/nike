@@ -15,3 +15,25 @@ ul{
 a{
     text-decoration: none;
 }
+
+.header__list{
+    display: flex;
+}
+.header__link{    
+    padding: 23px 22px;
+    display: inline-block;
+    color: #fff;
+    transition: .5s;
+}
+.header__nav{
+    background: #322E41;
+}
+.header__link:hover{
+    background: #fff;
+    color: #D47300;
+}
+.container__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
